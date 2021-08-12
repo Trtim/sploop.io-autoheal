@@ -8,7 +8,7 @@ def press(a, b):
     keyboard.press(a)
     time.sleep(b)
     keyboard.release(a)
-    return
+    
 
 while True:
     if keyboard.is_pressed('`'):
