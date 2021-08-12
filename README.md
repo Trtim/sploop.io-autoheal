@@ -1,6 +1,6 @@
 # sploop.io-autoheal
 AutoHeal For Gamers
 
-press T to toggle autoheal
+- press T to toggle autoheal
 
-change "d" to the delay u want
+- change "d" to the delay u want
