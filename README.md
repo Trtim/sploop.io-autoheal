@@ -9,3 +9,6 @@ For skids, by skids.
 
 - press " ` " to toggle autoheal
 - change "d" to the delay u want
+
+Update Log:
+Autotrap/boost added
