@@ -2,7 +2,7 @@
 import time, keyboard
 
 autoheal = False
-d = 0.1
+d = 0.05
 
 def press(a, b):
     keyboard.press(a)
@@ -17,7 +17,7 @@ while True:
                 time.sleep(0)
     if autoheal == True:
             press('space', d)
-            press('3', d)
+            press('q', d)
             press('space', d)
             press('1', d)
 
