@@ -1,5 +1,5 @@
-# sploop.io-autoheal
-AutoHeal For Gamers
+# sploop.io macro/hack
+For skids, by skids.
 
 1. have python and pip installed
 2. run "pip install keyboard"
@@ -8,5 +8,4 @@ AutoHeal For Gamers
 
 
 - press " ` " to toggle autoheal
-
 - change "d" to the delay u want
