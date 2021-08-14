@@ -4,11 +4,9 @@ import time, keyboard
 
 # Settings #
 
-autotrap = False # change to true if u want to use
-bind = 't' #Auto trap/boost keybind
-d = 0.05 #Delay for each heal/placement
-
-
+autotrap = False # change to true if u want to use autotrap/boost
+bind = 't' # autotrap/boost keybind
+d = 0.035 # Delay for autoheal
 
 
 def press(a, b):
@@ -28,8 +26,9 @@ while True:
             press('q', d)
             press('space', d)
             press('1', d)
+            time.sleep(0)
     if autotrap == True:
         if keyboard.is_pressed(bind):
-            press('f', d)
-            press('space', d)
-
+            press('f', 0.001)
+            press('space', 0.001)
+            press('1', 0.001)
