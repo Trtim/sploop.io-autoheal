@@ -13,4 +13,5 @@ For skids, by skids.
 
 
 Update Log:
-Autotrap/boost added
+removed autotrap/boost
+added boost spike
